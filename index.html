@@ -15,6 +15,7 @@
 		<title>Frontend Mentor | Social links profile</title>
 
 		<link rel="stylesheet" href="./styles.css" />
+		<script src="./scripts.js"></script>
 	</head>
 	<body>
 		<main>
@@ -32,11 +33,25 @@
 				</div>
 				<p class="bio">"Front-end developer and avid reader."</p>
 				<div class="links">
-					<button type="button">GitHub</button>
-					<button type="button">Frontend Mentor</button>
-					<button type="button">LinkedIn</button>
-					<button type="button">Twitter</button>
-					<button type="button">Instagram</button>
+					<button type="button" id="github" onclick="handleBtnClick(event)">
+						GitHub
+					</button>
+					<button
+						type="button"
+						id="frontendMentor"
+						onclick="handleBtnClick(event)"
+					>
+						Frontend Mentor
+					</button>
+					<button type="button" id="linkedin" onclick="handleBtnClick(event)">
+						LinkedIn
+					</button>
+					<button type="button" id="twitter" onclick="handleBtnClick(event)">
+						Twitter
+					</button>
+					<button type="button" id="instagram" onclick="handleBtnClick(event)">
+						Instagram
+					</button>
 				</div>
 			</section>
 		</main>

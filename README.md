@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Finished Social Links Proile Screenshot](./screenshot.jpg)
+![Finished Social Links Proile Screenshot](./design/screenshot.png)
 
 ### Links
 

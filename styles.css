@@ -1,0 +1,46 @@
+/* Fonts */
+@font-face {
+	font-family: 'Inter';
+	src: url(./assets/fonts/Inter-VariableFont_slnt\wght.ttf);
+}
+
+/* Variables */
+:root {
+	/* Primary */
+	--green: hsl(75, 94%, 57%);
+	/* Neutral */
+	--white: hsl(0, 0%, 100%);
+	--grey: hsl(0, 0%, 20%);
+	--darkGrey: hsl(0, 0%, 12%);
+	--offBlack: hsl(0, 0%, 8%);
+}
+
+/* Box Sizing Rules */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Remove default spacing in favour of better control in authored CSS */
+* {
+	margin: 0;
+	padding: 0;
+	font: inherit;
+}
+
+html,
+body {
+	height: 100%;
+	font-size: 0.875rem;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--offBlack);
+	font-family: 'Inter', sans-serif;
+	color: var(--white);
+	line-height: 1.5;
+}
